@@ -1,3 +1,7 @@
+
+
+/* cover section css  */
+
 .top-div{
        
     background-image: linear-gradient(45deg,rgba(14, 13, 13, 0.80),rgba(18, 19, 19, 0.75)), url('images/donation3.jpg');
@@ -7,89 +11,6 @@
     text-align: center;
     display: flex;
     justify-content: center; 
-}
-
-.second-div{
-    width: 100%;
-    height: 750px;
-    text-align: center;
-    display: flex;
-    justify-content: center; 
-}
-
-.third-div{
-    width: 100%;
-    height: 500px;
-    text-align: center;
-    display: flex;
-    justify-content: center; 
-}
-.donation-video{
-    width: 100%;
-    height: 800px;
-    text-align: center;
-    display: flex;
-    justify-content:space-around; 
-}
-
-.subscription-div{
-    width: 100%;
-    height: 550px;
-    text-align: center;
-    display: flex;
-    justify-content: center; 
-}
-
-.footer{
-    width: 100%;
-    height: 220px;
-    text-align: center;
-    
-    background-color: #000000;
-}
-.second-div h1{
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 55px;
-}
-
-.third-div h1{
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 55px;
-}
-
-.subscription-div h1{
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 55px;
-}
-
-.big-text h1{
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 65px;
-}
-
-.donation-video-div h1{
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 55px;
 }
 
 p{
@@ -109,32 +30,16 @@ p{
     color: #FFFFFF;
    
 }
-.big-text-second{
-    width: 50%;
-    padding-top: 100px;
-    text-align: center;
-    color: #000000;
-}
-.donation-video-div{
-    width: 50%;
-    padding-top: 60px;
-    text-align: center;
-    color: #000000; 
+
+.big-text h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
 }
 
-.big-text-third{
-    width: 50%;
-  
-    text-align: center;
-    color: #000000;
-}
-
-.big-text-subs{
-    width: 50%;
-  
-    text-align: center;
-    color: #000000;
-}
 .donate-btn{
     padding: 18px 13px;
 
@@ -149,6 +54,192 @@ p{
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
+}
+
+/* end cover section css  */
+
+/* donate today section start  */
+
+.second-div{
+    width: 100%;
+    height: 750px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+}
+
+
+.big-text-second{
+    width: 50%;
+    padding-top: 100px;
+    text-align: center;
+    color: #000000;
+}
+
+.second-div h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+
+
+.div-flex-style{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.donate-amount-div{
+    padding: 50px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Poppins';
+}
+
+.donate-amount-div-red{
+    padding: 50px;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Poppins';
+}
+
+
+.input-section{
+    border:none;
+    border-bottom: 1px solid #0d0d0e;
+    padding: 5px 10px;
+    outline: none; 
+    text-align: center;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* donate today section end  */
+
+/* our donate plan section start  */
+
+.third-div{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+}
+
+.big-text-third{
+    width: 50%;
+  
+    text-align: center;
+    color: #000000;
+}
+
+
+
+.third-div h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+
+
+.donate-plan{
+    width:29%;
+    padding: 15px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px; 
+    align-self: inherit;
+}
+
+.donate-plan-bluish{
+    width:29%;
+    padding: 15px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px; 
+    align-self: inherit;
+}
+
+.donate-plan-left{
+   text-align: left;
+
+}
+
+/* our donate plan section end  */
+
+/* video update section start  */
+
+
+.donation-video-div{
+    width: 50%;
+    padding-top: 60px;
+    text-align: center;
+    color: #000000; 
+}
+.donation-video{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    display: flex;
+    justify-content:space-around; 
+}
+
+.donation-video-div h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+
+
+iframe{
+    width:100%;
+    height:400px;
+}
+
+/* video update section end  */
+
+/* subscribtion section start  */
+.subscription-div{
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+}
+
+.big-text-subs{
+    width: 50%;
+  
+    text-align: center;
+    color: #000000;
+}
+
+.subscription-div h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
 }
 
 .subscribe-btn{
@@ -176,18 +267,28 @@ p{
     font-size: 20px;
 }
 
-.input-section{
-    border:none;
-    border-bottom: 1px solid #0d0d0e;
-    padding: 5px 10px;
-    outline: none; 
-    text-align: center;
+.form-div{
+    display: flex;
+    justify-content: center; 
+    padding: 100px;
+    border-radius: 5px; 
+    background: #FFF4D6;
+}
+
+.form-div div{
+    display:flex;
+    justify-content: center;
+}
+
+/* subscription section end  */
+
+/* footer start  */
+.footer{
     width: 100%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+    height: 220px;
+    text-align: center;
+    
+    background-color: #000000;
 }
 
 .footer p{
@@ -205,67 +306,8 @@ color: #D9DBE1;
     color: #FF5959;
     font-size: 40px;
 }
+ /* footer end  */
 
-.div-flex-style{
-    display:flex;
-    justify-content: space-between;
 
-}
 
-.donate-amount-div{
-    padding: 50px;
-    background: #FAFAFA;
-    border-radius: 5px;
-    font-weight: 900;
-    font-size: 25px;
-    font-family: 'Poppins';
-}
 
-.donate-amount-div-red{
-    padding: 50px;
-    background: #FFEEEE;
-    border: 2px solid #FF5959;
-    border-radius: 5px;
-    font-weight: 900;
-    font-size: 25px;
-    font-family: 'Poppins';
-}
-
-.donate-plan{
-    width:29%;
-    padding: 15px;
-    background: rgba(255, 89, 89, 0.1);
-    border-radius: 5px; 
-    align-self: inherit;
-}
-
-.donate-plan-bluish{
-    width:29%;
-    padding: 15px;
-    background: rgba(79, 157, 166, 0.1);
-    border-radius: 5px; 
-    align-self: inherit;
-}
-
-.donate-plan-left{
-   text-align: left;
-
-}
-
-.form-div{
-    display: flex;
-    justify-content: center; 
-    padding: 100px;
-    border-radius: 5px; 
-    background: #FFF4D6;
-}
-
-.form-div div{
-    display:flex;
-    justify-content: center;
-}
-
-iframe{
-    width:100%;
-    height:400px;
-}
