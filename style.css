@@ -1,0 +1,271 @@
+.top-div{
+       
+    background-image: linear-gradient(45deg,rgba(14, 13, 13, 0.80),rgba(18, 19, 19, 0.75)), url('images/donation3.jpg');
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+}
+
+.second-div{
+    width: 100%;
+    height: 750px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+}
+
+.third-div{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+}
+.donation-video{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    display: flex;
+    justify-content:space-around; 
+}
+
+.subscription-div{
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+}
+
+.footer{
+    width: 100%;
+    height: 220px;
+    text-align: center;
+    
+    background-color: #000000;
+}
+.second-div h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.third-div h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.subscription-div h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.big-text h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.donation-video-div h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.big-text{
+    width: 50%;
+    padding-top: 150px;
+    text-align: center;
+    color: #FFFFFF;
+   
+}
+.big-text-second{
+    width: 50%;
+    padding-top: 100px;
+    text-align: center;
+    color: #000000;
+}
+.donation-video-div{
+    width: 50%;
+    padding-top: 60px;
+    text-align: center;
+    color: #000000; 
+}
+
+.big-text-third{
+    width: 50%;
+  
+    text-align: center;
+    color: #000000;
+}
+
+.big-text-subs{
+    width: 50%;
+  
+    text-align: center;
+    color: #000000;
+}
+.donate-btn{
+    padding: 18px 13px;
+
+    width: 160px;
+    height: 56px;
+    border-radius: 3px;
+    margin-top: 100px;
+    background: #FF5959;
+    text-decoration: none;
+    color:#ffffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.subscribe-btn{
+    padding: 18px 13px;
+    border-radius: 3px;
+
+    background: #FF5959;
+    text-decoration: none;
+    color:#ffffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.subscribe-input{
+    padding: 18px 13px;
+    border-radius: 3px;
+    width: 50%;
+    text-decoration: none;
+    color:#080808;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.input-section{
+    border:none;
+    border-bottom: 1px solid #0d0d0e;
+    padding: 5px 10px;
+    outline: none; 
+    text-align: center;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.footer p{
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+
+color: #D9DBE1;
+}
+
+.footer h1{
+    font-family: 'The Nautigal', cursive;
+    color: #FF5959;
+    font-size: 40px;
+}
+
+.div-flex-style{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.donate-amount-div{
+    padding: 50px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Poppins';
+}
+
+.donate-amount-div-red{
+    padding: 50px;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Poppins';
+}
+
+.donate-plan{
+    width:29%;
+    padding: 15px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px; 
+    align-self: inherit;
+}
+
+.donate-plan-bluish{
+    width:29%;
+    padding: 15px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px; 
+    align-self: inherit;
+}
+
+.donate-plan-left{
+   text-align: left;
+
+}
+
+.form-div{
+    display: flex;
+    justify-content: center; 
+    padding: 100px;
+    border-radius: 5px; 
+    background: #FFF4D6;
+}
+
+.form-div div{
+    display:flex;
+    justify-content: center;
+}
+
+iframe{
+    width:100%;
+    height:400px;
+}
